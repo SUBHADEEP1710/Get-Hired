@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+   /* background-image: url(pic2.jpg);  Replace 'background-image.jpg' with the path to your image */
+    background-size:auto;
+    background-position: center;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #000000da;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #5fc71a;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(90% - 70px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5fc71a;
+    color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #5fc71a;
+    border:1px solid #5fc71a;
+}
+
+#results {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00000070;
+    color:#5fc71a;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    background-color: #000000;
+    border: 1px solid #5fc71a;
+    color: #5fc71a;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #5fc71a;
+    color:  #000000;
+}
+
+.pagination button.active {
+    background-color: #5fc71a;;
+    color: white;
+}
